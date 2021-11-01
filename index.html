@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/styles/style.css">
+        <link href="assets/image/icb-icon.jpeg" rel="shortcut icon">
+        <title>Infobest. Get Information From Us</title>
+    </head>
+    <body>
+        <header class="sticky"> 
+            <div class="jumbotron">
+                <section class="logo">
+                    <img src="assets/image/icb-logo.jpeg" alt="icb-logo">
+                </section>
+                <nav>
+                    <ul>
+                        <li><a href="#About">About</a></li>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div id="content">
+                <article id="About" class="card">
+                    <h1 style="line-height: 1.2em">About</h1>
+                    <img src="assets/image/banner.jpg" alt="banner" class="banner">
+                    <p>We provide company information services. Including the profile, business, 
+                        and management of the company you requested. Majority of our clients are 
+                        from overseas such as Malaysia, Singapore, China, India, etc. Our products 
+                        are needed for cooperation, investment, business, and other purposes you need. 
+                        Our products are based on the latest notarial deed obtained from the Ministry of Law and Human Rights of the Republic of Indonesia 
+                        with the approval of the company.</p>
+                </article>
+                <article id="Services" class="card">
+                    <h1 style="line-height: 1.2em">Services</h1>
+                    <section class="card box-1">
+                        <div class="inside-box">                        
+                            <h3>General Company Report</h3>
+                            <p>Containing:</p>
+                            <ul>
+                                <li>Business Profile</li>
+                                <li>Operation</li>
+                                <li>Shareholders & Management</li>
+                                <li>Banking Information</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="card box-2">
+                        <div class="inside-box">                        
+                            <h3>Full Company Report</h3>
+                            <p>Containing:</p>
+                            <ul>
+                                <li>General Company Report</li>
+                                <li>Business Activities</li>
+                                <li>Litigation</li>
+                                <li>Performance & Capabilities</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section class="card box-3">
+                        <div class="inside-box">
+                            <h3>Individual Report</h3>
+                            <p>Containing:</p>
+                            <ul>
+                                <li>Personal Profile</li>
+                                <li>Background</li>
+                                <li>Company Records</li>
+                                <li>Litigation</li>
+                            </ul>
+                        </div>
+                    </section>                        
+                </article>
+            </div>
+            <aside>
+                <article class="card" id="Contact">
+                    <div>
+                        <h1>Contact Us</h1>
+                        <section class="box-aside">
+                            <h4>Head Office</h4>
+                            <p>Jalan Lorem Ipsum <br>
+                                Lorem ipsum dolor sit amet<br>
+                                Accusantium iusto non optio<br>
+                                Indonesia<br>
+                                Phone: (62 21) 5555 5555<br>
+                                Email: loremipsum@yahoo.com
+                            </p>
+                        </div>
+                    </section>
+                </article>
+                <article class="card">
+                    <h1>Order</h1>
+                    <table class="box-aside">
+                        <tr><td>Name </td><td><input type="text" name="customer" placeholder="Customer Name"></td></tr>
+                        <tr>
+                            <td>Email</td>
+                            <td>
+                                <input type="text" name="email" placeholder="Email Customer">
+                            </td>
+                        <tr>
+                            <td>Request</td>
+                            <td>
+                                <input type="text" name="request" placeholder="Company / Individual Name">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Services </td>
+                        <td>
+                            <input type="radio" name="report" value="general"/>General Company<br/>
+                            <input type="radio" name="report" value="full"/>Full Company<br/>
+                            <input type="radio" name="report" value="individual"/>Individual<br/>
+                        </td>
+                    </tr>
+                    <tr><td></td><td><button onclick="confirm('Double-check your order. Click OK and proceed to payment.')">Order</button></td></tr>
+                    </table>
+                </article>
+                <article class="profile card">
+                    <h1>About Me</h1>
+                        <figure class="box-aside">
+                            <img src="assets/image/nugie.jpg" alt="nugie" width="100px">
+                            <p><em>Nugie Jaya Nugraha<br>
+                                <hr>
+                                Front-End Web Developer</em></p>
+                        </figure>
+                        <p>Contact: jayanugie14@gmail.com</p>
+                </article>
+            </aside>
+        </main>
+        <footer>
+            <p>PT Infobest Citra Buana &#169; 2021</p>
+        </footer>
+    </body>
+</html>
